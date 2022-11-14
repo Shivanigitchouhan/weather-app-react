@@ -6,7 +6,7 @@ import Descriptions from "./Components/Descriptions";
 import { getFormattedWeatherData } from "./weatherService";
 
 function App() {
-  const [city, setCity] = useState("Bhilai");
+  const [city, setCity] = useState("Indore");
 
   const [weather, setWeather] = useState(null);
 
